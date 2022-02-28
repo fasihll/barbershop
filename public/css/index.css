@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+.up{
+    background: goldenrod;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.up i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.navbar{
+    z-index: 1;
+    bottom: -25px;
+}
+.navbar ul li a{
+    color: white !important;
+}
+.navbar ul li a:hover {
+    color: gold !important;
+}
+
+.jumbotron img{
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.jumbotron{
+    height: 600px !important;
+    overflow: hidden;
+    position: relative;
+    margin-top: -55px;
+    margin-bottom: 0;
+}
+.jumbotron .text-jumbotron{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+}
+.jumbotron::after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.img-box{
+    overflow: hidden;
+    width: 400px;
+    top: 0;
+    border-radius: 10px !important;
+}
+#about{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#hairstyle{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background: url("../public/images/banner.jpg");
+    background-size: cover;
+}
+
+#testimoni {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+footer {
+    padding-top: 50px;
+}
+footer .row{
+   justify-items: center;
+}
+.contact li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
